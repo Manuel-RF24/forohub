@@ -33,7 +33,7 @@ Este proyecto tiene como objetivo implementar una API RESTful que permita la ges
 
 ## Uso
 
-- ** Autenticación
+- **Autenticación**
 Para autenticarte y obtener un token JWT, realiza una solicitud POST a la siguiente URL:
 
 URL: http://localhost:8080/api/auth/login
@@ -55,7 +55,7 @@ Editar
   "token": "Bearer <tu_token_jwt>"
 }
 
-- ** Crear un tópico
+- **Crear un tópico**
 Para crear un nuevo tópico, realiza una solicitud POST a la siguiente URL:
 
 URL: http://localhost:8080/api/tópicos
@@ -71,7 +71,7 @@ Editar
   "description": "Descripción del tópico"
 }
 
-- ** Consultar tópicos
+- **Consultar tópicos**
 Para obtener una lista de todos los tópicos, realiza una solicitud GET a la siguiente URL:
 
 URL: http://localhost:8080/api/tópicos
@@ -94,7 +94,7 @@ Editar
   "description": "Descripción actualizada"
 }
 
-- ** Eliminar un tópico
+- **Eliminar un tópico**
 Para eliminar un tópico, realiza una solicitud DELETE a la siguiente URL:
 
 URL: http://localhost:8080/api/tópicos/{id}
